@@ -83,15 +83,29 @@ Biologically-modeled autonomous agent with global workspace consciousness, activ
 
 ---
 
+## 🤖 Industry AI Agents
+
+Open-source, ready-to-deploy intelligent agents for specific verticals:
+
+| Agent | Repo | Description |
+|-------|------|-------------|
+| **Gm-BOagent** | [Repo](https://github.com/13717930620-alt/Gm-BOagent) | Enterprise business operations: strategy, supply chain, PM, OCR docs |
+| **Gm-financeagent** | [Repo](https://github.com/13717930620-alt/Gm-financeagent) | Financial intelligence: CAS/IFRS, tax regulation, analysis templates |
+| **Gm-legalagent** | [Repo](https://github.com/13717930620-alt/Gm-legalagent) | Legal semantic retrieval: case law, statutes, compliance |
+| **Gm-hragent** | [Repo](https://github.com/13717930620-alt/Gm-hragent) | HR intelligence: labor law, recruitment, employee lifecycle |
+| **hyperagent** | [Repo](https://github.com/13717930620-alt/hyperagent) | General-purpose agent framework: multi-LLM, tool calling, memory |
+
+---
+
 ## 🏢 Industry Solutions
 
 | Industry | Key Products | Use Cases |
 |----------|-------------|-----------|
 | **Manufacturing** | UAA + BlackBox + Sandbox | CNC control, quality assurance, predictive maintenance |
 | **Industrial Automation** | UAA + Fleet + SovereignKit | Multi-protocol robot control, safety interlocks, workflow orchestration |
-| **Legal & Compliance** | Brain Project + BlackBox | Legal semantic retrieval, compliance audit trail |
-| **Business Operations** | BOagent + Somaagent | Operations knowledge engine, document intelligence, data integration |
-| **Financial Services** | Financeagent + UAA | CAS/IFRS accounting, financial analysis, audit-ready records |
+| **Legal & Compliance** | Gm-legalagent + BlackBox | Legal semantic retrieval, compliance audit trail |
+| **Business Operations** | Gm-BOagent + Somaagent | Operations knowledge engine, document intelligence, data integration |
+| **Financial Services** | Gm-financeagent + UAA | CAS/IFRS accounting, financial analysis, audit-ready records |
 | **Sovereign Deployment** | SovereignKit + Sandbox | Air-gap isolation, hardware security, offline model inference |
 
 ---
