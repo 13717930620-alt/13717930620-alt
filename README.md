@@ -1,42 +1,53 @@
 <div align="center">
 
-# SomaOS (Beijing) Technology Development Co., Ltd.
+# SomaOS Technology
 
-**Cognitive + Motor Robot Brains for Embodied AI**
+**Two flagship machine brains for embodied AI.**
+
+SomaOS BrainAgent v18.6 &nbsp;·&nbsp; SomaOS Brain Next v0.2
+
+[Website](https://jxt.asia) &nbsp;·&nbsp; [Email](mailto:gm@jxt.asia) &nbsp;·&nbsp; Beijing, China
 
 </div>
 
 ---
 
-## About
+## What we build
 
-SomaOS develops two independent robot brain systems targeting the Feetech SO-100 6-DoF manipulator platform:
+SomaOS is a **body-agnostic cognitive layer** for robots. It does not compete with
+VLA foundation models — it gives the robot a brain: cognition, memory, motivation,
+safety, and multi-robot orchestration.
 
-| Project | Focus | Repository |
-|---------|-------|------------|
-| **Cognitive Brain** | Perception-cognition-action loop with multi-phase grounding, cross-modal consistency, and dual-path memory | [somaos-cognitive-brain-so100](https://github.com/13717930620-alt/somaos-cognitive-brain-so100) |
-| **Next Motor Brain** | Zero-dependency execution kernel with dual-layer safety, VLA hot-plug, and high-value failure replay | [somaos-next-motor-brain-so100](https://github.com/13717930620-alt/somaos-next-motor-brain-so100) |
+Two independent machine brains, one engineering continuum:
 
-Both projects are published in the [Robonix EAIOS community](https://packages.robonix.ai/) catalog.
+| Product | Role | Repository |
+|---|---|---|
+| **SomaOS BrainAgent v18.6** | Human-brain-inspired embodied intelligence — a full neurocognitive loop over **22 brain regions**, with language, memory, drives, motor control, learning, and reflection | [somaos-cognitive-brain-so100](https://github.com/13717930620-alt/somaos-cognitive-brain-so100) |
+| **SomaOS Brain Next v0.2** | Safety-first lightweight runtime — a clean small kernel with typed events, deterministic fallbacks, model slots, and traceable decisions; **zero runtime dependencies** | [somaos-next-motor-brain-so100](https://github.com/13717930620-alt/somaos-next-motor-brain-so100) |
 
----
+## Architecture at a glance
 
-## Technology Highlights
+- **22 brain regions** as the skeleton, coordinated through a full perception–cognition–action loop
+- **Three-layer neural architecture** — attention/awareness competition, spiking associative memory, predictive-coding loop
+- **Global Workspace Theory** as the arbitration core — decisions are traceable, not a black box
+- **Grounding Triad** — closing the symbol-to-physical grounding gap
 
-**Cognitive Brain**  tri-phase symbolic grounding, cross-modal triple-consistency scoring, endogenous dual-path gating, episodic-semantic dual-layer memory with sub-goal fallback, evolutionary connection self-tuning, cerebrum-brainstem separation architecture.
+## Status (honest)
 
-**Next Motor Brain**  zero-dependency verifiable kernel, dual-layer action filter (intentional gating + reflex emergency stop), VLA-pluggable upstream contract, high-value failure-first experience replay, full-chain traceable event bus, 1GB/4-core ARM resource ceiling.
+- ✅ Simulation loop validated (MuJoCo) · 70+ test files · reproducible demos
+- ✅ Sealed runtime + container delivery · invention patent application filed · software copyright registered
+- ✅ Published in the [Robonix EAIOS community](https://packages.robonix.ai/) catalog
+- ⚠️ Real-robot integration: **not yet** — on the roadmap
+- ⚠️ Research-grade framework, not a commercial product
 
----
+## Business model
+
+**Brain-as-a-Service** — brain subscription/license + one connector per robot + fleet management.
 
 ## Contact
 
-- **Email**: [gm@jxt.asia](mailto:gm@jxt.asia)
-- **GitHub**: [@13717930620-alt](https://github.com/13717930620-alt)
-- **Location**: Beijing, China
+- Website: https://jxt.asia
+- Email: gm@jxt.asia
+- Location: Beijing, China
 
----
-
-<div align="center">
-  <sub>(c) 2026 SomaOS (Beijing) Technology Development Co., Ltd.</sub>
-</div>
+<div align="center"><sub>&copy; 2026 SomaOS Technology (Beijing) Co., Ltd.</sub></div>
